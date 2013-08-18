@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Game>
+  <DefaultEnabled>1</DefaultEnabled>
+  <Title>Game Title</Title>
+  <Comments>Game Description</Comments>
+  <WindowClass>WindowClass</WindowClass>
+  <WindowTitle>WindowTitle</WindowTitle>
+  <Hack>
+    <DefaultEnabled>1</DefaultEnabled>
+    <MethodName>OnOff</MethodName>
+    <Data>
+      <DefaultHotkey>12</DefaultHotkey>
+      <DefaultHotkeyToggle>1</DefaultHotkeyToggle>
+      <DefaultMicrosleep>5</DefaultMicrosleep>
+      <Pointer>
+        <BaseModule>engine.dll</BaseModule>
+        <Offset>0x488CC4</Offset>
+        <Offset>0x30</Offset>
+        <Variable>Base64String</Variable>
+        <Variable>Base64String</Variable>
+      </Pointer>
+    </Data>
+  </Hack>
+</Game>

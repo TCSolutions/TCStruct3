@@ -1,0 +1,12 @@
+LIBRARY   TCStruct3Lib
+EXPORTS
+	SetDebugOutputCallback @1
+	FreeDebugOutputCallback @2
+	SetStandardOutputCallback @3
+	FreeStandardOutputCallback @4
+	CreateCPointerInfoClassObject @5
+	CreateCPointerInfoClassObjectExtended @6
+	FreeCPointerInfoClassObject @7
+	CreateCPointerVariableClassObject @8
+	FreeCPointerVariableClassObject @9
+	CSSTest @10

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCStruct3 Debug Application", "TCStruct3 Debug Application\TCStruct3 Debug Application.csproj", "{C46A3C68-8C52-418E-A19D-CED08C83C1AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D651ADFF-2980-4038-AECC-E69F76370FFB} = {D651ADFF-2980-4038-AECC-E69F76370FFB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCStruct3Lib", "TCStruct3Lib\TCStruct3Lib.vcxproj", "{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCStruct3Wrapper", "TCStruct3Wrapper\TCStruct3Wrapper.csproj", "{D651ADFF-2980-4038-AECC-E69F76370FFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE} = {21CD6A16-D539-4669-98B6-6EAC05E3CFCE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - x64|By Solution Configuration = Debug - x64|By Solution Configuration
+		Debug - x86|By Solution Configuration = Debug - x86|By Solution Configuration
+		Release - x64|By Solution Configuration = Release - x64|By Solution Configuration
+		Release - x86|By Solution Configuration = Release - x86|By Solution Configuration
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Debug - x64|By Solution Configuration.ActiveCfg = Debug|x64
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Debug - x64|By Solution Configuration.Build.0 = Debug|x64
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Debug - x86|By Solution Configuration.ActiveCfg = Debug|x86
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Debug - x86|By Solution Configuration.Build.0 = Debug|x86
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Release - x64|By Solution Configuration.ActiveCfg = Release|x64
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Release - x64|By Solution Configuration.Build.0 = Release|x64
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Release - x86|By Solution Configuration.ActiveCfg = Release|x86
+		{C46A3C68-8C52-418E-A19D-CED08C83C1AF}.Release - x86|By Solution Configuration.Build.0 = Release|x86
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Debug - x64|By Solution Configuration.ActiveCfg = Debug|x64
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Debug - x64|By Solution Configuration.Build.0 = Debug|x64
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Debug - x86|By Solution Configuration.ActiveCfg = Debug|Win32
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Debug - x86|By Solution Configuration.Build.0 = Debug|Win32
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Release - x64|By Solution Configuration.ActiveCfg = Release|x64
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Release - x64|By Solution Configuration.Build.0 = Release|x64
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Release - x86|By Solution Configuration.ActiveCfg = Release|Win32
+		{21CD6A16-D539-4669-98B6-6EAC05E3CFCE}.Release - x86|By Solution Configuration.Build.0 = Release|Win32
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Debug - x64|By Solution Configuration.ActiveCfg = Debug|x64
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Debug - x64|By Solution Configuration.Build.0 = Debug|x64
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Debug - x86|By Solution Configuration.ActiveCfg = Debug|x86
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Debug - x86|By Solution Configuration.Build.0 = Debug|x86
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Release - x64|By Solution Configuration.ActiveCfg = Release|x64
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Release - x64|By Solution Configuration.Build.0 = Release|x64
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Release - x86|By Solution Configuration.ActiveCfg = Release|x86
+		{D651ADFF-2980-4038-AECC-E69F76370FFB}.Release - x86|By Solution Configuration.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
